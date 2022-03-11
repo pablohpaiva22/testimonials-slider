@@ -1,0 +1,249 @@
+:root {
+    --color-1: hsl(240, 37%, 20%);
+    --color-2: hsl(240, 18%, 77%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+body {
+    background: rgb(243, 243, 243);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    max-width: 1440px;
+    height: 784px;
+    overflow: hidden;
+    position: relative;
+}
+
+.box-translate {
+    display: flex;
+}
+
+.container {
+    background: #fff;
+    width: 1440px;
+    height: 784px;
+    padding: 120px;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.text {
+    z-index: 2;
+}
+
+.text p {
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: var(--color-1);
+    max-width: 630px;
+    margin-right: -60px;
+}
+
+.text h4 {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: var(--color-1);
+    margin-top: 40px;
+}
+
+.text span {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    color: var(--color-2);
+}
+
+.photo {
+    z-index: 1;
+    position: relative;
+}
+
+.icon-1 {
+    position: absolute;
+    right: 75px;
+    top: 58px;
+}
+
+.icon-2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+}
+
+.icon-3 {
+    position: absolute;
+    left: 260px;
+    top: 194px;
+}
+
+.icon-4 {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 8px 8px 32px 0 #666;
+    padding: 0;
+    position: absolute;
+    bottom: 100px;
+    right: 550px;
+    z-index: 10;
+}
+
+.icon-4-1,
+.icon-4-2 {
+    cursor: pointer;
+}
+
+.icon-4-1 img,
+.icon-4-2 img {
+    display: flex;
+    padding: 16px;
+}
+
+.icon-4-2 img:hover {
+    background: rgb(243, 243, 243);
+    border-radius: 0 30px 30px 0;
+}
+
+.icon-4-1 img:hover {
+    background: rgb(243, 243, 243);
+    border-radius: 30px 0 0 30px;
+}
+
+@media(max-width: 1440px) {
+    .box {
+        max-width: 1000px;
+        height: 545px;
+    }
+    .box-translate {
+        display: flex;
+    }
+    .container {
+        width: 1000px;
+        height: 545px;
+        padding: 84px;
+    }
+    .text p {
+        font-size: 22px;
+        max-width: 440px;
+    }
+    .text h4 {
+        font-size: 14px;
+        margin-top: 28px;
+    }
+    
+    .text span {
+        font-size: 18px;
+    }
+    .photo {
+        max-width: 378px;
+    }
+    .icon-1 {
+        max-width: 488px;
+        right: 70px;
+        top: 40px;
+    }
+    .icon-2 {
+        max-width: 428px;
+    }
+    .icon-3 {
+        max-width: 84px;
+        left: 185px;
+        top: 135px;
+    }
+    .icon-4 {
+        width: 80px;
+        border-radius: 20px;
+        bottom: 65px;
+        right: 385px;
+    }
+    .icon-4-1 img,
+    .icon-4-2 img {
+        padding: 14px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .box {
+        max-width: 375px;
+        height: 680px;
+    }
+    .container {
+        width: 375px;
+        height: 680px;
+        padding: 54px 34px;
+        flex-direction: column-reverse;
+        justify-content: start;
+        gap: 60px;
+    }
+    .text p {
+        font-size: 18px;
+        max-width: 440px;
+        margin-right: 0;
+        text-align: center;
+    }
+    .text h4 {
+        font-size: 16px;
+        margin-top: 28px;
+        text-align: center;
+    }
+    
+    .text span {
+        font-size: 16px;
+        display: block;
+    }
+    .photo {
+        max-width: 240px;
+        margin-top: 16px;
+    }
+    .icon-1 {
+        max-width: 310px;
+        right: 36px;
+        top: 42px;
+    }
+    .icon-2 {
+        max-width: 300px;
+        left: 0;
+        bottom: 0;
+        display: flex;
+    }
+    .icon-3 {
+        max-width: 60px;
+        left: 172px;
+        top: 345px;
+    }
+    .icon-4 {
+        width: 70px;
+        border-radius: 20px;
+        bottom: 350px;
+        right: 160px;
+    }
+    .icon-4-1 img,
+    .icon-4-2 img {
+        padding: 12px;
+        width: 8px;
+        height: 12px;
+    }
+}
