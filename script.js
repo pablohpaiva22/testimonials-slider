@@ -51,14 +51,12 @@ function rightHandleClick() {
 function leftHandleClick() {
     if(box.clientWidth > 1439) {
         width1440()
-    } else if(box.clientWidth > 374 && box.clientWidth < 1001) {
+    } else if(box.clientWidth > 375 && box.clientWidth < 1001) {
         width1000()
     } else {
         width375()
     }
 }
 
-
 rightClick.addEventListener('click', rightHandleClick)
 leftClick.addEventListener('click', leftHandleClick)
-
