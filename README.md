@@ -6,7 +6,7 @@ Desafio Frontend Mentor  - Coding bootcamp testimonials slider - criar uma pági
 
 ## Acesse a página ✔️
 
-https://pablohpaiva22.github.io/testimonial-slider/
+https://pablohpaiva22.github.io/testimonials-slider/
 
 ## Welcome! 👋
 
