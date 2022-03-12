@@ -28,7 +28,7 @@ body {
     position: relative;
 }
 
-.box-translate {
+.box-slide {
     display: flex;
 }
 
@@ -137,7 +137,7 @@ body {
         max-width: 1000px;
         height: 545px;
     }
-    .box-translate {
+    .box-slide {
         display: flex;
     }
     .container {

@@ -1,6 +1,6 @@
 const rightClick = document.querySelector('.icon-4-2')
 const leftClick = document.querySelector('.icon-4-1')
-const box = document.querySelector('.box-translate')
+const box = document.querySelector('.box-slide')
 const containers = document.querySelectorAll('.container')
 
 let i = 0
