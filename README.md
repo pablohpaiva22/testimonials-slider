@@ -1,12 +1,12 @@
 # Frontend Mentor - Coding bootcamp testimonials slider
 
-Desafio Frontend Mentor  - Coding bootcamp testimonials slider - criar uma página responsiva o mais próxima possível do layout apresentado e utiliazar JavaScript para criar o Slider
+Desafio Frontend Mentor  - Coding bootcamp testimonials slider - criar uma página responsiva o mais próxima possível do layout apresentado e utilizar JavaScript para criar o Slider
 
 <img src="images/print.PNG"> </img>
 
 ## Acesse a página ✔️
 
-https://pablohpaiva22.github.io/testimonial-slider/
+https://pablohpaiva22.github.io/testimonials-slider/
 
 ## Welcome! 👋
 
