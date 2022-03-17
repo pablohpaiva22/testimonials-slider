@@ -24,7 +24,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 Your users should be able to: 
 
-- View the optimal layout for the component depending on their device's screen size
-- Navigate the slider using either their mouse/trackpad or keyboard
+- View the optimal layout for the component depending on their device's screen size.
+- Navigate the slider using either their mouse/trackpad or keyboard.
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
